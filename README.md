@@ -12,7 +12,7 @@ Simple file based configuration gives you a single view of your entire infrastru
 ## Run
 
 ```
-docker run -it --rm -v $PWD:/src broadinstitute/terraform [options] [DIR]
+docker run -it --rm -v $PWD:/src sjevs/terraform [options] [DIR]
 ```
 
 This way current directory will be available. Specify only relative paths in the directory
