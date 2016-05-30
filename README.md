@@ -16,3 +16,7 @@ docker run -it --rm -v $PWD:/src sjevs/terraform [options] [DIR]
 ```
 
 This way current directory will be available. Specify only relative paths in the directory
+
+## Reference
+
+Inspired by [broadinstitute/terraform](https://github.com/broadinstitute/docker-terraform)
