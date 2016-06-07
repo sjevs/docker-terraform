@@ -8,7 +8,7 @@ dependencies:
         - echo "{\"https://index.docker.io/v1/\":{\"auth\":\"$DOCKER_AUTH\",\"email\":\"$DOCKER_EMAIL\"}}" > ~/.dockercfg
 
         # Build containers
-        - docker build -t sjevs/docker-terraform .
+        - docker build -t sjevs/terraform .
 
 test:
     override:
@@ -18,4 +18,4 @@ deployment:
     docker:
         branch: ["master"]
         commands:
-            - docker push sjevs/docker-terraform
+            - docker push sjevs/terraform
