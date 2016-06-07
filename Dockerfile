@@ -11,7 +11,7 @@ VOLUME ["/src"]
 WORKDIR /src
 
 RUN apk --update add \
-    curl && \
+    curl ca-certificates && \
     curl -o /tmp/terraform.zip https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
     unzip /tmp/terraform.zip -d /usr/bin && \
     rm -rf /tmp/* && \
