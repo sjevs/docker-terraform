@@ -2,7 +2,7 @@
 
 This Docker image is based on the official [Alpine](http://www.alpinelinux.org/) base image.
 
-Current size is [here](https://hub.docker.com/r/sjevs/docker-terraform/tags/) - 153 MB
+Current size is [here](https://hub.docker.com/r/sjevs/terraform/tags/) - 153 MB
 
 ## What is Terraform
 

@@ -1,3 +1,3 @@
 #!/bin/bash -euf
 
-docker run -it --rm sjevs/docker-terraform --version
+docker run -it --rm sjevs/terraform --version
